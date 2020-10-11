@@ -58,3 +58,9 @@ if (path.slice(0, 4) === 'http') {
 } else {
   cat(path, out);
 }
+
+
+
+// node step3.js --out /no/dir/new.txt one.txt
+//node step3.js --out new.txt  http://google.com
+//node step3.js --out new.txt one.txt
